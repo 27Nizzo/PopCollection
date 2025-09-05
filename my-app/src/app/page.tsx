@@ -2,7 +2,7 @@
 import { useState } from "react";
 import Navbar from "../app/components/Navbar";
 import Card from "../app/components/Card";
-
+import AddCard from "../app/components/AddCard";
 export default function Home() {
 
   return (
@@ -12,9 +12,7 @@ export default function Home() {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         <Card />
-        <Card />
-        <Card />
-        <Card />
+        <AddCard/>
       </div>
     </div>
   );
